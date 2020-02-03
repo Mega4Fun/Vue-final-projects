@@ -1,0 +1,19 @@
+// Font
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,700&display=swap");
+
+// Font Awesome
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css");
+// Boostrap
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css");
+
+// Helpers
+@import "./helpers/variables";
+@import "./helpers/classes";
+@import "./helpers/mixin";
+
+// Pages
+@import "./pages/home";
+@import "./pages/shop";
+@import "./pages/about";
+@import "./pages/productDetails";
+@import "./pages/makeup";

@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  // height: 5000px;
+  font-family: "Poppins", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  &:hover {
+    text-decoration: none !important;
+  }
+}
+
+ul {
+  list-style: none !important;
+}
+
+// Edit bootstrap container max-width
+@media screen and(min-width: 1200px) {
+  .container {
+    max-width: 1300px !important;
+  }
+}
